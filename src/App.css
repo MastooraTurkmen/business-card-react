@@ -1,42 +1,145 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #374151;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+header{
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1{
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  color: #F5F5F5;
+  line-height: 24px;
+  margin-bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+a{
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 12.24px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 15.36px;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+button{
+  background: wheat;
+  padding: 0.7em 2em;
+  border: none;
+  display: flex;
+  border-radius: 0.4em;
+  justify-content: space-between;
+
 }
 
-.read-the-docs {
-  color: #888;
+.container{
+  width: 350px;
+  color: white;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  background: #1A1B21;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+.my-image{
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.info, .main{
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 2.5em;
+}
+
+.job{
+  color: #F3BF99;
+  font-size: 15.80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+.email{
+  color: #374151;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.linkedin-a{
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.email, .linkedin-a{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.icon{
+  width: 20px;
+}
+
+.linkedin{
+  width: 18px;
+}
+
+.mail-btn{
+  background: white;
+  color: black;
+  
+}
+
+.linkedin-btn{
+  background: #5093E2;
+}
+
+.about-interests{
+  color: #DCDCDC;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+/* Footer */
+
+footer{
+  background: #161619;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em 3.5em;
+  margin-top: 3em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.logs{
+  width: 30px;
+  height: 30px;
 }
